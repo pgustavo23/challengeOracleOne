@@ -67,6 +67,7 @@ O projeto pode ser acessado através do próprio GitHub, caso deseje clonar para
 <br>
 
 Ou caso você esteja somente interessado em conhecer a aplicação, recomendo acessar o Vercel através do link abaixo:
+<br>
 https://challenge-oracle-one-murex.vercel.app/
 <br>
 <hr>
