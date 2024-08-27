@@ -18,6 +18,8 @@
 }
 
 body {
+    min-height: 832px;
+    max-height: 100%;
     background-color: var(--cor-primaria);
     display: flex;
     flex-direction: column;
@@ -422,7 +424,6 @@ body.dark {
 
 @media (max-width:900px) {
     body {
-        min-height: 150%;
         padding: 0;
         justify-content: space-between;
     }
@@ -467,7 +468,8 @@ body.dark {
     }
 
     .botoes__validacao {
-        min-height: 50%;
+        min-height: 45%;       
+        max-height: 45%;
         justify-content: space-between;
     }
 
@@ -493,7 +495,9 @@ body.dark {
     }
 
     .copiarTexto {
-        min-height: 30%;
+        display: block;
+        min-height: 25%;
+        max-height: 25%;
     }
 
     .rodape {
